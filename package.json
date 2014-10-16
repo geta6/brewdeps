@@ -1,0 +1,29 @@
+{
+  "name": "brewdeps",
+  "version": "0.0.1",
+  "private": false,
+  "description": "",
+  "bin": "bin/brewdeps",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "geta6",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.0",
+    "cliff": "^0.1.9",
+    "colors": "^1.0.3",
+    "commander": "^2.3.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.3.0",
+    "coffeelint-stylish": "0.0.1",
+    "coffee-script": "^1.7.1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-notify": "^0.3.0",
+    "grunt-simple-mocha": "^0.4.0"
+  }
+}
