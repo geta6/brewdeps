@@ -5,6 +5,15 @@
 homebrew dependency checker.
 
 
+## install
+
+```
+npm -g i brewdeps
+```
+
+
+## example
+
 ```
 $ brewdeps
 
