@@ -1,21 +1,30 @@
-# nodeinit
+# brewdeps
 
-![](https://travis-ci.org/geta6/nodeinit.png?branch=master)
+![](https://travis-ci.org/geta6/brewdeps.png?branch=master)
 
-node_moduleを開発し始めるためのベース
+homebrew dependency checker.
 
-# usage
 
-    $ git clone https://github.com/geta6/nodeinit
-    $ cd nodeinit
-    $ npm i -g grunt-cli
-    $ npm i
-    $ grunt
+```
+$ brewdeps
 
-# tasks
+:
 
-* lint coffee
-* build coffee (`src` to `lib`, recursive)
-* mocha test (`tests/test.coffee`)
-* watching file changes
-* failure notification
+sqlite
+------
+packages require sqlite:
+python
+
+sqlite requires:
+readline
+
+:
+
+$ brewdeps xz
+
+xz
+-----
+packages require xz:
+cairo, coreutils, gettext, glib, imagemagick, libpng, the_silver_searcher
+
+```

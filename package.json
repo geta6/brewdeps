@@ -1,8 +1,8 @@
 {
   "name": "brewdeps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
-  "description": "",
+  "description": "homebrew dependency checker",
   "bin": "bin/brewdeps",
   "main": "lib/index.js",
   "scripts": {
@@ -10,9 +10,11 @@
   },
   "author": "geta6",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/geta6/brewdeps.git"
+  },
   "dependencies": {
-    "cli-table": "^0.3.0",
-    "cliff": "^0.1.9",
     "colors": "^1.0.3",
     "commander": "^2.3.0"
   },
